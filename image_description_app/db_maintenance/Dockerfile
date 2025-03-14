@@ -1,8 +1,8 @@
-FROM python:3.9-slim-buster
+FROM python:3.12-slim
 
 WORKDIR /app
 
-COPY . /app  # Копируем все из контекста сборки в /app
+COPY . /app
 
 RUN pip install --no-cache-dir -r /app/requirements.txt
 

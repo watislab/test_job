@@ -51,7 +51,7 @@ services:
     command: ["python", "main.py"]
 
   pgadmin:
-    image: pgadmin/pgadmin4
+    image: dpage/pgadmin4:latest
     environment:
       PGADMIN_DEFAULT_EMAIL: "admin@example.com"
       PGADMIN_DEFAULT_PASSWORD: "admin"
