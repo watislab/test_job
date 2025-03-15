@@ -3,8 +3,8 @@ import logging
 import sys
 
 from config.logging_config import setup_logging
-from .db_actions.setup_replication import configure_database
-from .alembic_operations.migrations import run_migrations
+from db_actions.setup_replication import configure_database
+from alembic_operations.migrations import run_migrations
 from dotenv import load_dotenv
 
 load_dotenv()

@@ -2,3 +2,4 @@ alembic
 SQLAlchemy
 psycopg2-binary
 python-dotenv
+docker
